@@ -3,7 +3,7 @@ const inputBox = document.getElementById("input-box");
 
 function addTask()
 {
-    if(inputBox.value === '')
+    if(inputBox.value === "")
     {
         alert("Enter Some Data");
     }
@@ -18,7 +18,7 @@ function addTask()
         li.appendChild(span);
     }
 
-    inputBox.value = " ";
+    inputBox.value = "";
     saveTask();
 }
 
